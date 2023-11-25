@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddContactActivity">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etHouseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="House Number"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etApartmentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apartment Number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"/>
+
+</LinearLayout>
